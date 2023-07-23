@@ -1,0 +1,51 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.pizza {
+    
+    margin : 0.5em;
+    padding: 0.5em;
+    width: 15em;
+    display: inline-block;
+    background-color: pink;
+    color: azure;
+}
+
+.btn {
+    color: pink;
+    background-color: blue;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    float: right;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th,td {
+    border: 0.5px solid black;
+    padding: 1em;
+}
+
+.message {
+    padding: 1em;
+    color: green;
+}
+
+.cart {
+    display: flex
+}
+
+.cart div {
+    flex: 1;
+}
